@@ -338,7 +338,7 @@
                 <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
                     <div class="hero-image fade-in text-center">
                         <br />
-                        <img src="https://kukerku-ncip.vercel.app/logo/logo.jpeg" class="img-fluid rounded shadow"
+                        <img src="/img/logo.jpeg" class="img-fluid rounded shadow"
                             style="max-width: 300px; width: 100%;" alt="Logo">
                     </div>
                 </div>
