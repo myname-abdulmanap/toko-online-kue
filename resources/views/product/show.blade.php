@@ -10,19 +10,24 @@
 
     .product-image-container {
         position: relative;
-        border-radius: 20px;
         overflow: hidden;
         background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent-color) 100%);
-        height: 400px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 15px;
     }
 
     .product-image-container img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .product-image-container:hover img {
+        transform: scale(1.05);
     }
 
     .product-image-placeholder {
@@ -281,6 +286,7 @@
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         transition: all 0.3s ease;
         height: 100%;
+        margin-bottom: 1.5rem;
     }
 
     .product-card:hover {
@@ -297,12 +303,18 @@
         justify-content: center;
         font-size: 3rem;
         color: white;
+        height: 200px;
     }
 
     .product-image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .product-image:hover img {
+        transform: scale(1.1);
     }
 
     .product-content {
@@ -322,20 +334,149 @@
         font-size: 1.1rem;
     }
 
+    /* Mobile Responsive Styles */
     @media (max-width: 768px) {
+        .product-detail {
+            padding: 1rem 0 2rem;
+        }
+
+        .product-image-container {
+            height: 250px;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+
+        .product-image-placeholder {
+            font-size: 5rem;
+        }
+
         .product-info {
             padding-left: 0;
-            margin-top: 2rem;
+            margin-top: 1rem;
         }
 
         .product-title {
-            font-size: 2rem;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .product-category {
+            display: block;
+            text-align: center;
+            margin: 0 auto 1rem;
+            width: fit-content;
+        }
+
+        .product-description {
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .price-card, .quantity-section, .order-summary, .order-section {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 1rem;
         }
 
         .order-buttons {
             flex-direction: column;
             align-items: center;
+            gap: 0.8rem;
         }
+
+        .btn-whatsapp {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .related-products {
+            margin-top: 2rem;
+            padding: 2rem 1rem;
+        }
+
+        .product-card {
+            margin-bottom: 1rem;
+        }
+
+        .product-image {
+            height: 180px;
+            font-size: 2.5rem;
+        }
+
+        .product-content {
+            padding: 1rem;
+        }
+
+        .product-content .product-title {
+            font-size: 1.1rem;
+        }
+
+        .product-price {
+            font-size: 1rem;
+        }
+    }
+
+    /* Extra small devices */
+    @media (max-width: 480px) {
+        .product-image-container {
+            height: 200px;
+            margin: 0 0.5rem 1rem;
+        }
+
+        .product-image-placeholder {
+            font-size: 4rem;
+        }
+
+        .product-title {
+            font-size: 1.5rem;
+        }
+
+        .price-card, .quantity-section, .order-summary, .order-section {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .product-image {
+            height: 150px;
+            font-size: 2rem;
+        }
+
+        .related-products {
+            padding: 1.5rem 0.5rem;
+        }
+    }
+
+    /* Landscape orientation on mobile */
+    @media (max-width: 768px) and (orientation: landscape) {
+        .product-image-container {
+            height: 180px;
+        }
+
+        .product-image {
+            height: 120px;
+        }
+    }
+
+    /* Utility classes for responsive images */
+    .img-responsive {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .img-cover {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-contain {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
     }
 </style>
 @endpush
