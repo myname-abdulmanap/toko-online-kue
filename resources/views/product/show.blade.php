@@ -805,7 +805,7 @@ function orderViaWhatsApp() {
 Halo! Saya ingin memesan produk di atas. Mohon informasi lebih lanjut untuk proses pemesanan dan pembayaran. Terima kasih! 😊`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/6289688037437?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/6289688037437?text=${encodedMessage}`;   
 
     window.open(whatsappUrl, '_blank');
 }

@@ -5,8 +5,8 @@
     <!-- Project Card Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <a href="/user/create" class="btn btn-primary float-right">
-                <i class="fas fa-plus"></i> Tambah User
+            <a href="/admin/user/create" class="btn btn-primary float-right">
+                <i class="fas fa-plus"></i> Tambah Admin
             </a>
             <h4 class="m-15 font-weight-bold">DAFTAR USER</h4>
         </div>
@@ -27,7 +27,7 @@
                 <thead>
                     <tr align="center">
                         <th style="width: 5%">#</th>
-                        <th style="width: 20%">Nama User</th>
+                        <th style="width: 20%">Nama</th>
                         <th style="width: 20%">Email</th>
                         <th style="width: 15%">Role</th>
                         <th style="width: 20%">Aksi</th>

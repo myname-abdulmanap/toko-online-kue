@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Auth::routes();
+Route::resource('/admin/user', UserController::class);
+
 Route::get('/', [App\Http\Controllers\HomeController::class, 'beranda'])->name('beranda');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -25,7 +27,7 @@ Route::get('/category', [App\Http\Controllers\HomeController::class, 'category']
 Route::get('/testemoni', [App\Http\Controllers\HomeController::class, 'testemoni'])->name('testemoni.index');
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about.index');
 
-Route::resource('admin/user', UserController::class);
+
 Route::resource('admin/products', ProductController::class);
 
 Route::get('/product/satuan', [ListProductController::class, 'satuan'])->name('product.Satuan');

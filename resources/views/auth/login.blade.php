@@ -9,7 +9,7 @@
     <meta name="description" content="Dashboard Kukerku">
     <meta name="author" content="NAF">
 
-    <title>Login Aplikasi Gaji</title>
+    <title>Login Dashboard Kukerku Ncip</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

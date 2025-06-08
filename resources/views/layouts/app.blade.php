@@ -24,109 +24,109 @@
 
 
     <!-- Styles -->
-   <style>
-.btn-primary {
-    background-color: #df7715 !important;
-    border-color: #e0a418 !important;
-    color: #fff !important;
-}
+    <style>
+        .btn-primary {
+            background-color: #df7715 !important;
+            border-color: #e0a418 !important;
+            color: #fff !important;
+        }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:active:focus,
-.btn-primary:focus-visible {
-    background-color: #c76410 !important;
-    border-color: #b3560c !important;
-    color: #fff !important;
-    box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.5) !important;
-}
+        .btn-primary:hover,
+        .btn-primary:focus,
+        .btn-primary:active,
+        .btn-primary:active:focus,
+        .btn-primary:focus-visible {
+            background-color: #c76410 !important;
+            border-color: #b3560c !important;
+            color: #fff !important;
+            box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.5) !important;
+        }
 
-.btn-primary:disabled,
-.btn-primary.disabled {
-    background-color: #df7715 !important;
-    border-color: #df7715 !important;
-    opacity: 0.65;
-}
+        .btn-primary:disabled,
+        .btn-primary.disabled {
+            background-color: #df7715 !important;
+            border-color: #df7715 !important;
+            opacity: 0.65;
+        }
 
-.btn-outline-primary {
-    color: #df7715 !important;
-    border-color: #df7715 !important;
-}
+        .btn-outline-primary {
+            color: #df7715 !important;
+            border-color: #df7715 !important;
+        }
 
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:active {
-    background-color: #df7715 !important;
-    border-color: #df7715 !important;
-    color: #fff !important;
-}
+        .btn-outline-primary:hover,
+        .btn-outline-primary:focus,
+        .btn-outline-primary:active {
+            background-color: #df7715 !important;
+            border-color: #df7715 !important;
+            color: #fff !important;
+        }
 
-.text-primary {
-    color: #df7715 !important;
-}
+        .text-primary {
+            color: #df7715 !important;
+        }
 
-.bg-primary {
-    background-color: #df7715 !important;
-}
+        .bg-primary {
+            background-color: #df7715 !important;
+        }
 
-.border-primary {
-    border-color: #df7715 !important;
-}
+        .border-primary {
+            border-color: #df7715 !important;
+        }
 
-a.text-primary:hover,
-a.text-primary:focus {
-    color: #b3560c !important;
-}
+        a.text-primary:hover,
+        a.text-primary:focus {
+            color: #b3560c !important;
+        }
 
-.form-control:focus {
-    border-color: #f5c685 !important;
-    box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.25) !important;
-}
+        .form-control:focus {
+            border-color: #f5c685 !important;
+            box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.25) !important;
+        }
 
-.custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #df7715 !important;
-    border-color: #df7715 !important;
-}
+        .custom-control-input:checked~.custom-control-label::before {
+            background-color: #df7715 !important;
+            border-color: #df7715 !important;
+        }
 
-.custom-control-input:focus ~ .custom-control-label::before {
-    box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.25) !important;
-}
+        .custom-control-input:focus~.custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba(223, 119, 21, 0.25) !important;
+        }
 
-.progress-bar {
-    background-color: #df7715 !important;
-}
+        .progress-bar {
+            background-color: #df7715 !important;
+        }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-    background-color: #df7715 !important;
-}
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            background-color: #df7715 !important;
+        }
 
-.badge-primary {
-    background-color: #df7715 !important;
-}
+        .badge-primary {
+            background-color: #df7715 !important;
+        }
 
-.alert-primary {
-    color: #7a3f0a !important;
-    background-color: #ffe6cc !important;
-    border-color: #ffd4a3 !important;
-}
+        .alert-primary {
+            color: #7a3f0a !important;
+            background-color: #ffe6cc !important;
+            border-color: #ffd4a3 !important;
+        }
 
-.page-item.active .page-link {
-    background-color: #df7715 !important;
-    border-color: #df7715 !important;
-}
+        .page-item.active .page-link {
+            background-color: #df7715 !important;
+            border-color: #df7715 !important;
+        }
 
 
 
-.page-link:hover {
-    color: #b3560c !important;
-}
+        .page-link:hover {
+            color: #b3560c !important;
+        }
 
-.bg-gradient-deeporange {
-    background: linear-gradient(180deg, #c7630e 0%, #a64b06 100%) !important;
-}
-</style>
+        .bg-gradient-deeporange {
+            background: linear-gradient(180deg, #c7630e 0%, #a64b06 100%) !important;
+        }
+    </style>
 
 
 
@@ -146,7 +146,7 @@ a.text-primary:focus {
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-cheese"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">{{config('app.name')}}</div>
+                <div class="sidebar-brand-text mx-3">{{ config('app.name') }}</div>
             </a>
 
             <!-- Divider -->
@@ -167,24 +167,31 @@ a.text-primary:focus {
                 MENU
             </div>
             @php
-            $role = auth()->user()->role;
-        @endphp
+                if (!auth()->check() || !auth()->user()->role) {
+                    header('Location: /login');
+                    exit();
+                }
+
+                $role = auth()->user()->role;
+            @endphp
+
             <!-- Nav Item - Pages Collapse Menu -->
             @if ($role === 'admin')
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwotr"
-                    aria-expanded="true" aria-controls="collapseTwotr">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Hak Akses</span>
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwotr"
+                        aria-expanded="true" aria-controls="collapseTwotr">
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Hak Akses</span>
 
-                </a>
-                <div id="collapseTwotr" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Hak Akses</h6>
-                        <a class="collapse-item" href="/admin/user">Data User</a>
+                    </a>
+                    <div id="collapseTwotr" class="collapse" aria-labelledby="headingTwo"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Hak Akses</h6>
+                            <a class="collapse-item" href="/admin/user">Data User</a>
+                        </div>
                     </div>
-                </div>
-            </li>
+                </li>
             @endif
 
             {{-- @if ($role === 'user') --}}
@@ -298,8 +305,7 @@ a.text-primary:focus {
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal"
-                                    data-target="#logoutModal">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Keluar
                                 </a>
